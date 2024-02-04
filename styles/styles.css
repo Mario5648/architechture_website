@@ -136,6 +136,11 @@
     font-size: 18px;
 }
 
+.intro-text
+{
+    width:65%;
+}
+
 .year-text-container
 {
     font-size: 30px;
@@ -196,7 +201,10 @@ height: auto;
 object-fit: cover; /* This ensures images cover the area without losing their aspect ratio */
 }
 
-
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
 @media only screen and (max-width: 1000px)
 {
 
