@@ -75,6 +75,14 @@
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
+
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-image
@@ -108,7 +116,7 @@
 {
     width: 300px;
     position: absolute;
-    margin-top: -1000px;
+    margin-top: -1500px;
     margin-left: -800px;
 
     z-index: -1;
@@ -134,6 +142,11 @@
 .work-text
 {
     font-size: 18px;
+}
+
+.project-label-text
+{
+    font-size: 30px;
 }
 
 .intro-text
@@ -205,6 +218,100 @@ a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
   }
+
+
+.circle-small {
+height: 50px;
+width: 50px;
+background-color: #fff;
+border-color: black;
+border-style: solid;
+border-radius: 50%;
+}
+
+.circle-medium{
+height: 100px;
+width: 100px;
+background-color: #fff;
+border-color: black;
+border-style: solid;
+border-radius: 50%;
+}
+.circle-large {
+height: 150px;
+width: 150px;
+background-color: #fff;
+border-color: black;
+border-style: solid;
+border-radius: 50%;
+}
+
+#c1
+{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 80px;
+    z-index: -1;
+}
+#c2
+{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1200px;
+    z-index: -1;
+}
+#c3
+{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1000px;
+    z-index: -1;
+}
+
+#c4
+{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -1000px;
+    z-index: -1;
+}
+#c5
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1200px;
+    z-index: -1;
+}
+#c6
+{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: -1500px;
+    z-index: -1;
+}
+#c7
+{
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: -1000px;
+    z-index: -1;
+}
+
+#c8
+{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: -1200px;
+    z-index: -1;
+}
+
+#c9
+{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 1500px;
+    z-index: -1;
+}
 @media only screen and (max-width: 1000px)
 {
 
@@ -230,7 +337,26 @@ a {
         width: 100%;
 
     }
+    .box-container
+    {
+        max-width: 200px;
+        max-height: 200px;
 
+
+        margin-top: 20px;
+
+    
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
     .year-text-container
     {
         font-size: 30px;
@@ -248,7 +374,7 @@ a {
     {
         width: 300px;
         position: absolute;
-        margin-top: -2100px;
+        margin-top: -1600px;
         margin-left: -350px;
     
         z-index: -1;
@@ -273,6 +399,78 @@ a {
         align-items: center;
         flex-wrap: wrap;
 
+    }
+
+
+
+
+
+
+    #c1
+    {
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 250px;
+        z-index: -1;
+    }
+    #c2
+    {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 300px;
+        z-index: -1;
+    }
+    #c3
+    {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -400px;
+        z-index: -1;
+    }
+
+    #c4
+    {
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 300px;
+        z-index: -1;
+    }
+    #c5
+    {
+        position: absolute;
+        margin-top: 1000px;
+        margin-left: 300px;
+        z-index: -1;
+    }
+    #c6
+    {
+        position: absolute;
+        margin-top: 1100px;
+        margin-left: -300px;
+        z-index: -1;
+    }
+    #c7
+    {
+        position: absolute;
+        margin-top: 1600px;
+        margin-left: -200px;
+        z-index: -1;
+    }
+
+    #c8
+    {
+        position: absolute;
+        margin-top: 1800px;
+        margin-left: -250px;
+        z-index: -1;
+    }
+
+    #c9
+    {
+        position: absolute;
+        margin-top: 1400px;
+        margin-left: 250px;
+        z-index: -1;
     }
 
 }
