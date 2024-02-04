@@ -7,7 +7,6 @@
 
     font-family: 'Poppins', sans-serif;
 
-    
 }
 
 .navigation-bar-section
@@ -19,6 +18,7 @@
 
     max-width: 1000px;
     width: 100%;
+
 }
 
 .navigation-bar-text-section
@@ -29,6 +29,7 @@
     flex-direction: row;
     width:65%;
 
+
 }
 
 .hero-section
@@ -36,7 +37,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-
     max-width: 800px;
     width: 100%;
 }
@@ -134,4 +134,137 @@
 .work-text
 {
     font-size: 18px;
+}
+
+.year-text-container
+{
+    font-size: 30px;
+    border-style: solid;
+    width: 400px;
+    padding-left: 20px;
+    border-color: green;
+}
+
+.quote-style
+{
+    font-size: 40px;
+    font-weight: 800;
+    color: green;
+}
+.description-text-section
+{
+    width: 75%;
+    margin-top: 10px;
+
+    padding: 30px;
+
+    color: grey;
+    font-size: 14px;
+
+    
+}
+
+.name-subtext
+{
+    color: grey;
+    font-size: 12px;    
+}
+
+.sub-description-header
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+.banner-image
+{
+    width:100%;
+
+    padding-bottom: 50px;
+}
+
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+grid-gap: 10px;
+padding: 10px;
+}
+.gallery img {
+width: 100%;
+height: auto;
+object-fit: cover; /* This ensures images cover the area without losing their aspect ratio */
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+
+    .navigation-bar-section
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .hero-section
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 800px;
+        width: 100%;
+
+    }
+
+    .year-text-container
+    {
+        font-size: 30px;
+        border-style: solid;
+        width: 250px;
+        border-color: green;
+    }
+
+    .img-1
+    {
+        display: none;
+    }
+
+    .img-2
+    {
+        width: 300px;
+        position: absolute;
+        margin-top: -2100px;
+        margin-left: -350px;
+    
+        z-index: -1;
+    }
+
+    .work-section
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width: 800px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .selected-work-section
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
 }
